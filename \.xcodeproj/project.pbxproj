@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F4271EA2DE6EF9D00EAA044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4271E92DE6EF9D00EAA044 /* AppDelegate.swift */; };
+		1F4271EC2DE6EF9D00EAA044 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4271EB2DE6EF9D00EAA044 /* SceneDelegate.swift */; };
+		1F4271EE2DE6EF9D00EAA044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4271ED2DE6EF9D00EAA044 /* ViewController.swift */; };
+		1F4271F12DE6EF9D00EAA044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4271EF2DE6EF9D00EAA044 /* Main.storyboard */; };
+		1F4271F32DE6EFA100EAA044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4271F22DE6EFA100EAA044 /* Assets.xcassets */; };
+		1F4271F62DE6EFA100EAA044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4271F42DE6EFA100EAA044 /* LaunchScreen.storyboard */; };
+		1F4271FE2DEEA2A800EAA044 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4271FD2DEEA2A800EAA044 /* TimerViewController.swift */; };
+		1F4272002DEEA2B900EAA044 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4271FF2DEEA2B900EAA044 /* TodoListViewController.swift */; };
+		1F4272022DEEA2CE00EAA044 /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4272012DEEA2CE00EAA044 /* StatsViewController.swift */; };
+		1F4272042DEFF89700EAA044 /* SubjectCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4272032DEFF89700EAA044 /* SubjectCellTableViewCell.swift */; };
+		1F4272062DF30AC000EAA044 /* DatePickerPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4272052DF30AC000EAA044 /* DatePickerPopupViewController.swift */; };
+		1F4272082DF4690700EAA044 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4272072DF4690700EAA044 /* TodoTableViewCell.swift */; };
+		1F42720A2DF4810500EAA044 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4272092DF4810500EAA044 /* TodoItem.swift */; };
+		1F42720C2DF548F200EAA044 /* CustomMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42720B2DF548F200EAA044 /* CustomMemoViewController.swift */; };
+		1F42720E2DFA5D7500EAA044 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42720D2DFA5D7500EAA044 /* LoginViewController.swift */; };
+		1F4272102DFA5D8800EAA044 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42720F2DFA5D8800EAA044 /* RegisterViewController.swift */; };
+		1F6A9ACA2DFAFF630006ABE2 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 1F6A9AC92DFAFF630006ABE2 /* DGCharts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F4271E62DE6EF9D00EAA044 /* StudyTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4271E92DE6EF9D00EAA044 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F4271EB2DE6EF9D00EAA044 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F4271ED2DE6EF9D00EAA044 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F4271F02DE6EF9D00EAA044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F4271F22DE6EFA100EAA044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F4271F52DE6EFA100EAA044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F4271F72DE6EFA100EAA044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4271FD2DEEA2A800EAA044 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		1F4271FF2DEEA2B900EAA044 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
+		1F4272012DEEA2CE00EAA044 /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		1F4272032DEFF89700EAA044 /* SubjectCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectCellTableViewCell.swift; sourceTree = "<group>"; };
+		1F4272052DF30AC000EAA044 /* DatePickerPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerPopupViewController.swift; sourceTree = "<group>"; };
+		1F4272072DF4690700EAA044 /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
+		1F4272092DF4810500EAA044 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		1F42720B2DF548F200EAA044 /* CustomMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMemoViewController.swift; sourceTree = "<group>"; };
+		1F42720D2DFA5D7500EAA044 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1F42720F2DFA5D8800EAA044 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F4271E32DE6EF9D00EAA044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6A9ACA2DFAFF630006ABE2 /* DGCharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4271DD2DE6EF9D00EAA044 = {
+			isa = PBXGroup;
+			children = (
+				1F42720B2DF548F200EAA044 /* CustomMemoViewController.swift */,
+				1F4272072DF4690700EAA044 /* TodoTableViewCell.swift */,
+				1F4272052DF30AC000EAA044 /* DatePickerPopupViewController.swift */,
+				1F42720D2DFA5D7500EAA044 /* LoginViewController.swift */,
+				1F42720F2DFA5D8800EAA044 /* RegisterViewController.swift */,
+				1F4272032DEFF89700EAA044 /* SubjectCellTableViewCell.swift */,
+				1F4271FD2DEEA2A800EAA044 /* TimerViewController.swift */,
+				1F4271FF2DEEA2B900EAA044 /* TodoListViewController.swift */,
+				1F4272092DF4810500EAA044 /* TodoItem.swift */,
+				1F4272012DEEA2CE00EAA044 /* StatsViewController.swift */,
+				1F4271E82DE6EF9D00EAA044 /* StudyTimer */,
+				1F4271E72DE6EF9D00EAA044 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F4271E72DE6EF9D00EAA044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F4271E62DE6EF9D00EAA044 /* StudyTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F4271E82DE6EF9D00EAA044 /* StudyTimer */ = {
+			isa = PBXGroup;
+			children = (
+				1F4271E92DE6EF9D00EAA044 /* AppDelegate.swift */,
+				1F4271EB2DE6EF9D00EAA044 /* SceneDelegate.swift */,
+				1F4271ED2DE6EF9D00EAA044 /* ViewController.swift */,
+				1F4271EF2DE6EF9D00EAA044 /* Main.storyboard */,
+				1F4271F22DE6EFA100EAA044 /* Assets.xcassets */,
+				1F4271F42DE6EFA100EAA044 /* LaunchScreen.storyboard */,
+				1F4271F72DE6EFA100EAA044 /* Info.plist */,
+			);
+			path = StudyTimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F4271E52DE6EF9D00EAA044 /* StudyTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4271FA2DE6EFA100EAA044 /* Build configuration list for PBXNativeTarget "StudyTimer" */;
+			buildPhases = (
+				1F4271E22DE6EF9D00EAA044 /* Sources */,
+				1F4271E32DE6EF9D00EAA044 /* Frameworks */,
+				1F4271E42DE6EF9D00EAA044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudyTimer;
+			packageProductDependencies = (
+				1F6A9AC92DFAFF630006ABE2 /* DGCharts */,
+			);
+			productName = StudyTimer;
+			productReference = 1F4271E62DE6EF9D00EAA044 /* StudyTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F4271DE2DE6EF9D00EAA044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1F4271E52DE6EF9D00EAA044 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 1F4271E12DE6EF9D00EAA044 /* Build configuration list for PBXProject "StudyTimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F4271DD2DE6EF9D00EAA044;
+			packageReferences = (
+				1F6A9AC82DFAFF630006ABE2 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
+			productRefGroup = 1F4271E72DE6EF9D00EAA044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F4271E52DE6EF9D00EAA044 /* StudyTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F4271E42DE6EF9D00EAA044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4271F62DE6EFA100EAA044 /* LaunchScreen.storyboard in Resources */,
+				1F4271F32DE6EFA100EAA044 /* Assets.xcassets in Resources */,
+				1F4271F12DE6EF9D00EAA044 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F4271E22DE6EF9D00EAA044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F42720E2DFA5D7500EAA044 /* LoginViewController.swift in Sources */,
+				1F42720A2DF4810500EAA044 /* TodoItem.swift in Sources */,
+				1F4272042DEFF89700EAA044 /* SubjectCellTableViewCell.swift in Sources */,
+				1F4271FE2DEEA2A800EAA044 /* TimerViewController.swift in Sources */,
+				1F4271EE2DE6EF9D00EAA044 /* ViewController.swift in Sources */,
+				1F4272082DF4690700EAA044 /* TodoTableViewCell.swift in Sources */,
+				1F42720C2DF548F200EAA044 /* CustomMemoViewController.swift in Sources */,
+				1F4271EA2DE6EF9D00EAA044 /* AppDelegate.swift in Sources */,
+				1F4271EC2DE6EF9D00EAA044 /* SceneDelegate.swift in Sources */,
+				1F4272062DF30AC000EAA044 /* DatePickerPopupViewController.swift in Sources */,
+				1F4272102DFA5D8800EAA044 /* RegisterViewController.swift in Sources */,
+				1F4272022DEEA2CE00EAA044 /* StatsViewController.swift in Sources */,
+				1F4272002DEEA2B900EAA044 /* TodoListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F4271EF2DE6EF9D00EAA044 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4271F02DE6EF9D00EAA044 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F4271F42DE6EFA100EAA044 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4271F52DE6EFA100EAA044 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F4271F82DE6EFA100EAA044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F4271F92DE6EFA100EAA044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F4271FB2DE6EFA100EAA044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudyTimer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "oty-hansung.ac.kr.StudyTimer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F4271FC2DE6EFA100EAA044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudyTimer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "oty-hansung.ac.kr.StudyTimer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F4271E12DE6EF9D00EAA044 /* Build configuration list for PBXProject "StudyTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4271F82DE6EFA100EAA044 /* Debug */,
+				1F4271F92DE6EFA100EAA044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F4271FA2DE6EFA100EAA044 /* Build configuration list for PBXNativeTarget "StudyTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4271FB2DE6EFA100EAA044 /* Debug */,
+				1F4271FC2DE6EFA100EAA044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1F6A9AC82DFAFF630006ABE2 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F6A9AC92DFAFF630006ABE2 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F6A9AC82DFAFF630006ABE2 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1F4271DE2DE6EF9D00EAA044 /* Project object */;
+}
